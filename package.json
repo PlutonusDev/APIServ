@@ -1,0 +1,21 @@
+{
+  "name": "apiserv",
+  "version": "0.0.1",
+  "description": "My very own centralized multi-purpose api suite.",
+  "main": "src/index.js",
+  "repository": "https://github.com/PlutonusDev/apiserv",
+  "author": "PlutonusDev",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "start": "node .",
+    "dev": "node ."
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "winston": "^3.3.3"
+  }
+}
